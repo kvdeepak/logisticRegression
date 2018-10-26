@@ -28,7 +28,7 @@ Logistic regression is an optimiztion problem, where the object function to be m
 
 ![ObjectFunc](https://latex.codecogs.com/gif.latex?J%28w%29%3D%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%20%28y_i-1%29w%5ETx_i-ln%281&plus;e%5E%7B-w%5ETx_i%7D%29)
 
-The gradient of this objecct function is given by:
+The gradient of this object function is given by:
 
 ![Gradient](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20J%28w%29%29%7D%7B%5Cpartial%20w%7D%3D%5Csum%20_%7Bi%3D1%7D%5E%7Bn%7D%20%28y_i-P%28y_i%3D1%7Cx_i%2Cw%29%29x_i)
 
